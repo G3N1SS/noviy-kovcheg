@@ -1,0 +1,7 @@
+.menu__item-button_active{
+  width: 90px;
+  height: 30px;
+  border: 1px solid #fa6969;
+  text-transform: uppercase;
+  transition: all .6s;
+}

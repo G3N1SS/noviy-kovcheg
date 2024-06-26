@@ -1,0 +1,16 @@
+.contacts__address-text{
+  display: block;
+}
+
+@media screen and (max-width:1025px){
+  .contacts__address-text{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:685px){
+  .contacts__address-text{
+    font-size: 10px;
+    display: inline-block;
+  }
+}

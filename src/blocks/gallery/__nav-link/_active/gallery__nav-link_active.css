@@ -1,0 +1,19 @@
+.gallery__nav-link_active{
+  width: 140px;
+  border-bottom: 3px solid #fff;
+  opacity: 0.8;
+}
+
+.gallery__nav-link_active:hover{
+  width: 140px;
+}
+
+@media screen and (max-width:685px){
+  .gallery__nav-link_active{
+    width: 50px;
+  }
+
+  .gallery__nav-link_active:hover{
+    width: 50px;
+  }
+}

@@ -1,0 +1,16 @@
+.menu{
+  margin-bottom: 125px;
+}
+
+@media screen and (max-width:1025px){
+  .menu{
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width:685px){
+  .menu{
+    margin-top: 0px;
+    margin-bottom: 200px;
+  }
+}

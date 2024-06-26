@@ -1,0 +1,5 @@
+.menu__item-title_active{
+  font-size: 20px;
+  transition: all .6s;
+  margin-bottom: 10px;
+}

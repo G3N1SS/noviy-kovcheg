@@ -1,0 +1,15 @@
+.lounge-page__text{
+  font-size: 32px;
+}
+
+@media screen and (max-width:1025px){
+  .lounge-page__text{
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width:685px){
+  .lounge-page__text{
+    font-size: 16px;
+  }
+}

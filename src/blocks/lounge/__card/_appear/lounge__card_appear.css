@@ -1,0 +1,15 @@
+.lounge__card_appear:first-of-type{
+  animation: appearing .5s ease-in-out forwards;
+}
+
+.lounge__card_appear:nth-of-type(2){
+  animation: appearing 1.1s ease-in-out forwards;
+}
+
+.lounge__card_appear:nth-of-type(3){
+  animation: appearing 1.7s ease-in-out forwards;
+}
+
+.lounge__card_appear:last-of-type{
+  animation: appearing 2.3s ease-in-out forwards;
+}

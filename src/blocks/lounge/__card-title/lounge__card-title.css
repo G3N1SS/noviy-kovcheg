@@ -1,0 +1,18 @@
+.lounge__card-title{
+  font-style: italic;
+  font-weight: 500;
+  font-size: 32px;
+  font-style: italic;
+}
+
+@media screen and (max-width:1025px){
+  .lounge__card-title{
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width:685px){
+  .lounge__card-title{
+    font-size: 18px;
+  }
+}

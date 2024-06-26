@@ -1,0 +1,18 @@
+.interior__text{
+    font-weight: 500;
+    font-size: 28px;
+    text-align: start;
+    margin: 0;
+}
+
+@media screen and (max-width:1025px){
+    .interior__text{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:685px){
+    .interior__text{
+        font-size: 10px;
+    }
+}

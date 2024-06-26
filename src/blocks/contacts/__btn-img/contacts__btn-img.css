@@ -1,0 +1,23 @@
+.contacts__btn-img{
+  transition: all .3s;
+}
+
+.contacts__btn-img:hover{
+  transform: scale(1.1);
+}
+
+.contacts__btn-img:active{
+  transform: scale(0.9);
+}
+
+@media screen and (max-width:1025px){
+  .contacts__btn-img{
+    max-width: 35px;
+  }
+}
+
+@media screen and (max-width:685px){
+  .contacts__btn-img{
+    max-width: 28px;
+  }
+}

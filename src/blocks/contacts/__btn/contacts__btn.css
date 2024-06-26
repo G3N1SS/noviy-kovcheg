@@ -1,0 +1,11 @@
+.contacts__btn{
+  transition: all .3s;
+}
+
+.contacts__btn:hover{
+  opacity: 0.8;
+}
+
+.contacts__btn:nth-of-type(2){
+  margin: 0 22px;
+}

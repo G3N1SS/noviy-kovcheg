@@ -1,0 +1,16 @@
+.interior{
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+@media screen and (max-width:1025px){
+  .interior{
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width:685px){
+  .interior{
+    margin-bottom: 25px;
+  }
+}

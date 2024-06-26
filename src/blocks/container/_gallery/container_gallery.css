@@ -1,0 +1,4 @@
+.container_gallery{
+  max-height: 650px;
+  animation: appearing 1.2s ease-in-out;
+}

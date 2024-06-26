@@ -1,0 +1,21 @@
+.gallery__nav-box{
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  z-index: 99999;
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width:1025px){
+  .gallery__nav-box{
+    bottom: 3%;
+  }
+}
+
+@media screen and (max-width:685px){
+  .gallery__nav-box{
+    bottom: 5%;
+    gap: 5px;
+  }
+}

@@ -1,0 +1,18 @@
+.container_contacts{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 30px;
+}
+
+@media screen and (max-width:1025px){
+  .container_contacts{
+    grid-template-columns: 3fr 2fr;
+  }
+}
+
+@media screen and (max-width:685px){
+  .container_contacts{
+    display: flex;
+    flex-direction: column;
+  }
+}

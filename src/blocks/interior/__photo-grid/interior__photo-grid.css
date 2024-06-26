@@ -1,0 +1,17 @@
+.interior__photo-grid{
+  display: grid; 
+  gap: 30px; 
+  grid-template-columns: repeat(2, max-content);
+  justify-items: center;
+  grid-template-areas: 
+    "f11 f12"
+    "f10 f12"
+    "f9 f9";
+}
+
+@media screen and (max-width:685px){
+  .interior__photo-grid{
+    display: flex;
+    flex-direction: column;
+  }
+}

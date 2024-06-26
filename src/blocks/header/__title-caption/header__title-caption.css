@@ -1,0 +1,27 @@
+.header__title-caption{
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  font-size: 48px;
+  font-family: 'Jost' sans-serif;
+  font-style: italic;
+  text-align: center;
+  animation: appearingRightInv 10s ease-in-out forwards;
+  text-shadow:  0 6px 6px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  position: relative;
+}
+
+@media screen and (max-width:1025px){
+  .header__title-caption{
+    font-size: 24px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width:685px){
+  .header__title-caption{
+    font-size: 12px;
+    margin: 0;
+  }
+}

@@ -1,0 +1,29 @@
+.hamburger{
+    background: transparent;
+    border: none;
+    width: 28px;
+    padding: 0;
+    position: absolute;
+    right: 0px;
+    z-index: 110;
+    cursor: pointer;
+    top:31%;
+    right: 5%;
+    transition: all .6s;
+}
+
+.hamburger:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (min-width:1026px){
+    .hamburger{
+        display: none;
+    }
+}
+
+@media screen {
+    .hamburger{
+        top:28%
+    }
+}

@@ -1,0 +1,10 @@
+.container_interior{
+  display: flex;
+  gap: 30px;
+}
+
+@media screen and (max-width:685px){
+  .container_interior{
+    gap:10px
+  }
+}

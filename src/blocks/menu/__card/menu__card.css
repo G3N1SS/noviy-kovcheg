@@ -1,0 +1,32 @@
+.menu__card{
+  max-width: 360px;
+  background-color: #d9d9d9;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  grid-area: menu;
+  display: none;
+}
+
+.menu__card:first-of-type{
+  animation: appearingLeft .8s ease-in-out;
+}
+
+.menu__card:nth-of-type(2){
+  animation: appearing .8s ease-in-out;
+}
+
+.menu__card:last-of-type{
+  animation: appearingRight .8s ease-in-out;
+}
+
+@media screen and (max-width:685px){
+  
+  .menu__card:last-of-type{
+    animation: appearing .8s ease-in-out;
+  }
+
+  .menu__card:first-of-type{
+    animation: appearing .8s ease-in-out;
+  }
+}

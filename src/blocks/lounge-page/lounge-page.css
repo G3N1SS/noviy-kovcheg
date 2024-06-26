@@ -1,0 +1,15 @@
+.lounge-page{
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:1025px){
+    .lounge-page{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:685px){
+    .lounge-page{
+        margin-top: 75px;
+    }
+}

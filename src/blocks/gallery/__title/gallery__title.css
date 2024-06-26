@@ -1,0 +1,18 @@
+.gallery__title{
+  font-weight: 700;
+  font-size: 72px;
+  margin: 0 0 20px;
+  font-family: 'Vollkorn';
+}
+
+@media screen and (max-width:1025px){
+  .gallery__title{
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width:685px){
+  .gallery__title{
+    font-size: 24px;
+  }
+}

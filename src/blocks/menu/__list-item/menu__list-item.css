@@ -1,0 +1,17 @@
+.menu__list-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__list-item:first-of-type{
+  grid-area: 'MenuItem1';
+}
+
+.menu__list-item:last-of-type{
+  grid-area: 'MenuItem3';
+}
+
+.menu__list-item:nth-of-type(2){
+  grid-area: 'MenuItem2';
+}

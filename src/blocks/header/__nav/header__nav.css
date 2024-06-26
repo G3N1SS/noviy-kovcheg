@@ -1,0 +1,11 @@
+.header__nav{
+  max-width: 403px;
+  z-index: 100;
+  position: relative;
+}
+
+@media screen and (max-width:1025px){
+  .header__nav{
+    display: none;
+  }
+}

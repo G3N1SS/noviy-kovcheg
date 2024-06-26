@@ -1,0 +1,9 @@
+.menu__card_visible{
+  display: block;
+}
+
+@media screen and (max-width:685px){
+    .menu__card_visible{
+        max-width: 270px;
+    }
+}

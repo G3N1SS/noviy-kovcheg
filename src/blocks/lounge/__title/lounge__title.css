@@ -1,0 +1,20 @@
+.lounge__title{
+  font-weight: 500;
+  font-size: 72px;
+  text-align: center;
+  margin: 0 0 30px 0;
+  font-family: 'Vollkorn';
+}
+
+@media screen and (max-width:1025px){
+  .lounge__title{
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width:685px){
+  .lounge__title{
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+}

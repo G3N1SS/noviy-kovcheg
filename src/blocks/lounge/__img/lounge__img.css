@@ -1,0 +1,24 @@
+.lounge__img{
+  max-width: 488px;
+  max-height: 300px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.lounge__img:hover{
+  transform: scale(1.02);
+}
+
+@media screen and (max-width:1025px){
+  .lounge__img{
+    max-width: 319px;
+    max-height: 196px;
+  }
+}
+
+@media screen and (max-width:685px){
+  .lounge__img{
+    max-width: 280px;
+  }
+}

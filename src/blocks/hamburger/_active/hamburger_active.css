@@ -1,0 +1,7 @@
+.hamburger_active{
+    position: fixed;
+    right: 4%;
+    top:5%;
+    animation: appearing 2s ease-in forwards;
+    opacity: 0;
+}

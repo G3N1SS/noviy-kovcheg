@@ -1,0 +1,12 @@
+.container_why-us{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap:50px;
+}
+
+@media screen and (max-width:685px){
+  .container_why-us{
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+  }
+}

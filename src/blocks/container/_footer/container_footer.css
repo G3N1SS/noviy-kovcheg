@@ -1,0 +1,18 @@
+.container_footer{
+  display: flex; 
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width:1025px){
+  .container_footer{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:685px){
+  .container_footer{
+    align-items: end;
+  }
+}

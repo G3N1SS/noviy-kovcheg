@@ -1,0 +1,8 @@
+.header__container_fixed{
+  background-color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+  transition: all .3s;
+  position: fixed;
+  top:0;
+  animation: appearingTop .3s ease-in-out;
+}

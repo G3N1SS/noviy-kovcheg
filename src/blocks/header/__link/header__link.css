@@ -1,0 +1,31 @@
+.header__link{
+  text-decoration: none;
+  color: black;
+  transition: all .3s;
+  position: relative;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+.header__link:hover{
+  opacity: 0.9;
+  transform: scale(1.01);
+}
+
+.header__link::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  height: 1px;
+  width: 1%;
+  background: #8a8a8a;
+  transition: all .5s;
+}
+
+.header__link:hover::after{
+  content: '';
+  width: 100%;
+  left: 0;
+  opacity: 1;
+}

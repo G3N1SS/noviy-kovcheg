@@ -1,0 +1,12 @@
+.footer{
+  position: relative;
+  overflow-y: hidden;
+  padding-top: 50px;
+}
+
+@media screen and (max-width:685px){
+  .footer{
+    padding-top: 25px;
+    height: max-content;
+  }
+}

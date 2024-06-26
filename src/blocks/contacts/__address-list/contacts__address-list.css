@@ -1,0 +1,16 @@
+.contacts__address-list{
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  list-style: none;
+  gap: 75px;
+  justify-content: center;
+}
+
+@media screen and (max-width:685px){
+  .contacts__address-list{
+    gap: 35px;
+  }
+}

@@ -1,0 +1,16 @@
+.menu__caption{
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 0 15px 0;
+}
+
+.menu__caption:last-of-type{
+  font-weight: 300;
+  margin: 0;
+}
+
+@media screen and (max-width:685px){
+  .menu__caption{
+    font-size: 12px;
+  }
+}

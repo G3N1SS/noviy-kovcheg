@@ -1,0 +1,15 @@
+.hamburger-menu_visible{
+    display: flex;
+    transition: all .3s;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: appearingRight100 1s ease-in-out;
+    z-index: 101;
+}
+
+@media screen and (min-width:1026px){
+    .hamburger-menu_visible{
+        display: none;
+    }
+}

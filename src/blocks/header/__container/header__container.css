@@ -1,0 +1,16 @@
+.header__container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 99999;
+  transition: all .3s;
+}
+
+@media screen and (max-width:1025px){
+  .header__container{
+    background-color: #fff;
+    position: fixed;
+    top:0;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+  }
+}

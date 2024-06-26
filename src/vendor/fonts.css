@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'MarckScript';
+    font-weight: 400;
+    src: local('MarckScript'),
+         url(./fonts/static/MarckScript-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Vollkorn';
+    font-weight: 500;
+    src: local('Vollkorn'),
+         url(./fonts/static/Vollkorn-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Jost';
+    font-weight: 800;
+    src:local('Jost')
+        url(./fonts/static/Jost-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Jost';
+    font-weight: 400;
+    src: local('Jost'),
+         url(./fonts/static/Jost-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Jost';
+    font-weight: 300;
+    src:local('Jost')
+        url(./fonts/static/Jost-LightItalic.ttf);
+}

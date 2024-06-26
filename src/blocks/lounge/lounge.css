@@ -1,0 +1,9 @@
+.lounge{
+    margin-bottom: 75px;
+}
+
+@media screen and (max-width:685px){
+    .lounge{
+        margin-bottom: 15px;
+    }
+}

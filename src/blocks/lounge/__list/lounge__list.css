@@ -1,0 +1,15 @@
+.lounge__list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2,max-content);
+  justify-content: space-between;
+  gap: 30px;
+}
+
+@media screen and (max-width:685px){
+  .lounge__list{
+    grid-template-columns: 1fr;
+  }
+}

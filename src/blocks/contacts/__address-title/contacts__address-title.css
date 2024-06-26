@@ -1,0 +1,13 @@
+.contacts__address-title{
+  font-style: italic;
+  font-weight: 300;
+  font-size: 32px;
+  margin: 0;
+  display: inline-block;
+}
+
+@media screen and (max-width:1025px){
+  .contacts__address-title{
+    font-size: 22px;
+  }
+}

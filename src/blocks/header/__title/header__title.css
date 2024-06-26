@@ -1,0 +1,24 @@
+.header__title{
+  text-align: center;
+  color: white;
+  text-shadow: 6px 6px 0 rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  font-size: 88px;
+  font-family: 'MarckScript';
+  text-align: center;
+  animation: appearingLeftInv 10s ease-in-out forwards;
+  z-index: 100;
+  position: relative;
+}
+
+@media screen and (max-width:1025px){
+  .header__title{
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width:685px){
+  .header__title{
+    font-size: 24px;
+  }
+}

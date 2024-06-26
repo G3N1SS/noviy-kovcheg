@@ -1,0 +1,9 @@
+.lounge__card{
+  opacity: 1;
+}
+
+@media screen and (max-width:685px){
+  .lounge__card{
+    max-width: 280px;
+  }
+}
