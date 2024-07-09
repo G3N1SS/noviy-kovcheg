@@ -60,6 +60,7 @@ import lcard4 from '../images/lcards4.jpg'
 // services
 import marriage from '../images/marriage.jpg'
 import cake from '../images/cake.jpeg'
+import firework from '../images/firework.jpg'
 
 const gallery = [
   {
@@ -274,7 +275,7 @@ const services = [
   },
   {
     name: 'Фейрверки',
-    img: ''
+    img: firework
   },
   {
     name: 'Свадьба под ключ',
