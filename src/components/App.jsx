@@ -86,6 +86,7 @@ function App() {
   return (
     <div className='page'>
       <Routes>
+        <Route path='/noviy-kovcheg' element={<MainPage isScrolled={isScrolled} isScreenMid={isScreenMid} isScreenSmall={isScreenSmall}/>}/>
         <Route path='/' element={<MainPage isScrolled={isScrolled} isScreenMid={isScreenMid} isScreenSmall={isScreenSmall}/>}/>
         <Route path='/red-lounge' element={<LoungePage isScrolled={isScrolled} info={loungesInfo.red} isScreenMid={isScreenMid} isScreenSmall={isScreenSmall}/>}/>
         <Route path='/small-lounge' element={<LoungePage isScrolled={isScrolled} info={loungesInfo.small} isScreenMid={isScreenMid} isScreenSmall={isScreenSmall}/>}/>
