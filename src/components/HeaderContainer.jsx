@@ -15,7 +15,7 @@ export default function HeaderContainer({isScrolled, invert, isScreenMid, isScre
       setIsOpened(true)
     }
   }
-  console.log(isScreenMid)
+
   return(
   <>
   <div className={`header__container`}>

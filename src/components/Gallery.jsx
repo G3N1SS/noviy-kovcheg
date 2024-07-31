@@ -12,9 +12,7 @@ export default function Gallery({isScreenSmall}){
   const [isParty, setIsParty] = useState(false);
   const [selectedOption, setSelectedOption] = useState('Interior');
 
-  console.log(selectedOption)
   function toggleSwiper(evt){
-    console.log(evt)
     if(evt.target.id === '1'){
       setIsKitchen(true)
       setIsInterior(false)
